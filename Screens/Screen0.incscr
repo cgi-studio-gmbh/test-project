@@ -1,0 +1,72 @@
+{
+    "Type": "ScreenWrapper",
+    "ReferenceID": "1556095876618982200",
+    "Name": "Screen0",
+    "Camera": {
+        "Type": "CameraWrapper",
+        "Resolution": "(1280 420)",
+        "ScreenSize": "(1.28 0.42)",
+        "PrincipalPointOffset": "(0 0)",
+        "AngleOfView": "70",
+        "ClipNear": "0.00100000005",
+        "ClipFar": "1000",
+        "ID": "0a9fe919-260b-4d21-876c-4816b9400bae",
+        "Transform": "(1 0 0 0\n 0 1 0 0\n 0 0 1 0\n 0 0 0 1)",
+        "Label": "",
+        "Enabled": "1",
+        "DrawBoundingBox": "0",
+        "Components": [
+            {
+                "Type": "ScreenComponent",
+                "ID": "0144abb1-a684-4192-8522-6a754a38c844",
+                "Enabled": "1",
+                "Label": "",
+                "Transform": "(1 0 0 0\n 0 1 0 0\n 0 0 1 0\n 0 0 0 1)",
+                "DrawBoundingBox": "0",
+                "Size": "(1.28 0.42)"
+            },
+            {
+                "Type": "CameraComponent",
+                "ID": "15a06266-8656-40f6-9c1a-2ebcbf5700d4",
+                "Enabled": "1",
+                "Label": "",
+                "Transform": "(1 0 0 0\n 0 1 0 0\n 0 0 1 0.914015\n 0 0 0 1)",
+                "DrawBoundingBox": "0",
+                "EnableStereo": "0",
+                "EyeDistance": "0.1",
+                "ClipNear": "0.001",
+                "ClipFar": "1000",
+                "PrincipalPointOffset": "(0 0)"
+            }
+        ],
+        "InitialTransform": "(1 0 0 0\n 0 1 0 0\n 0 0 1 0\n 0 0 0 1)",
+        "CurrentPosition": "(0 0 0)",
+        "CurrentRotation": "(0 0 0)",
+        "CurrentWorldRotation": "(0 0 0)",
+        "FlushedRotation": "(1 0 0 0\n 0 1 0 0\n 0 0 1 0\n 0 0 0 1)",
+        "CurrentScale": "(1 1 1)",
+        "CurrentSize": "(1000 1000 1000)",
+        "RotationPivot": "(0 0 0)",
+        "ReferenceID": "1556095876619374100",
+        "CurrentRotationQuatReal": "1",
+        "CurrentRotationQuatImag": "(-0 0 0)"
+    },
+    "Position": "(20 20)",
+    "RootSceneID": "Root",
+    "SceneIDs": [
+        "Root"
+    ],
+    "BackgroundColor": "(0 0 0 1)",
+    "FXAAEnabled": "false",
+    "FXAAMode": "fast",
+    "SSAOEnabled": "false",
+    "SSAORadius": "0.5",
+    "SSAOSampleCount": "32",
+    "DoFEnabled": "false",
+    "DoFFocusDepth": "0",
+    "DoFFocusRange": "1",
+    "DoFFocusRangeFalloff": "1",
+    "DoFBlurRadius": "3",
+    "DoFBlurRepeat": "3",
+    "DoFBlurResolutionFactor": "0.5"
+}
